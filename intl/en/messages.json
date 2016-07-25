@@ -4,5 +4,13 @@
   "1092fa6c86f124928e0f4d9d4711ebc9": "options must be an object: {0}",
   "66a6a44b45094ef45fdcb0201a26fc6d": "table is a required string argument: {0}",
   "7b8176405c67ad9791d6fdbb960f45b3": "Index keys definition appears to be invalid: {0}",
-  "80a32e80cbed65eba2103201a7c94710": "Model not found: {0}"
+  "80a32e80cbed65eba2103201a7c94710": "Model not found: {0}",
+  "1fede8f5b161a89aadc14bc9ba6a21d4": "Execute SQL within a transaction",
+  "20f16461377fcf42af43ef9a2a828ca5": "SQL: {0}",
+  "2aa42741425fbcb5b0c0faba2fb7328b": "SQL: {0}\nParameters: {1}",
+  "77b31b4ff058cc14f61486999eed34b6": "{0}",
+  "a48e6965e32f333d76191b5195cb6e17": "PostgreSQL regex syntax does not respect the `m` flag",
+  "b49616d4cc1aa6775f20c2af378f9918": "PostgreSQL regex syntax does not respect the `g` flag",
+  "dd9c2ce8d19f205e0ca514c003d63c75": "Placeholder for identifiers is not supported",
+  "e1410a743c48b00ab6e2a316ee34a6cd": "Settings {0}"
 }
