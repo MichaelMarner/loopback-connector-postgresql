@@ -12,5 +12,8 @@
   "a48e6965e32f333d76191b5195cb6e17": "PostgreSQL regex syntax does not respect the `m` flag",
   "b49616d4cc1aa6775f20c2af378f9918": "PostgreSQL regex syntax does not respect the `g` flag",
   "dd9c2ce8d19f205e0ca514c003d63c75": "Placeholder for identifiers is not supported",
-  "e1410a743c48b00ab6e2a316ee34a6cd": "Settings {0}"
+  "e1410a743c48b00ab6e2a316ee34a6cd": "Settings {0}",
+  "1046963e833c1170192bb35bb6119c46": "Commit a transaction",
+  "1c28badd26330a06828ef0776f3e75e9": "Begin a transaction with isolation level: {0}",
+  "fe5d032d99479765a986ac1196b7458b": "Rollback a transaction"
 }
