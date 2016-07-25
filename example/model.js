@@ -2,6 +2,8 @@
 // Node module: loopback-connector-postgresql
 // This file is licensed under the Artistic License 2.0.
 // License text available at https://opensource.org/licenses/Artistic-2.0
+var SG = require('strong-globalize');
+var g = SG();
 
 var DataSource = require('loopback-datasource-juggler').DataSource;
 
@@ -23,13 +25,13 @@ Account.create({
     emails: ['john@x.com', 'jhon@y.com'],
     age: 30
 }, function (err, account1) {
-    console.log('Account 1: ', account1.toObject());
+    console.log(g.f('Account 1: %s', account1.toObject()));
     Account.create({
         name: 'John2',
         emails: ['john@x.com', 'jhon@y.com'],
         age: 30
     }, function (err, account2) {
-        console.log('Account 2: ', account2.toObject());
+        console.log(g.f('Account 2: %s', account2.toObject()));
         Account.findById(account2.id, function(err, account3) {
             console.log(account3.toObject());
         });
